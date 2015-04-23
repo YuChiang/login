@@ -4,10 +4,10 @@
 //  php connect MySQL 
 // ===================
 	// database setting
-	$db_host = '127.0.0.1';
+	$db_host = 'http://coder.tw/phpmyadmin';
 	$db_name = 'rakuda_yuchiang';
-	$db_user = 'root';
-	$db_passwd = '';
+	$db_user = 'rakuda';
+	$db_passwd = 'QzcE2BXsyp6nU3MD';
 
 	// Connecting database
 	$link = mysql_connect('db_host', 'db_user', 'db_passwd')
